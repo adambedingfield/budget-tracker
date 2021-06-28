@@ -55,7 +55,7 @@ function uploadBudget() {
     getAll.onsuccess = function() {
     // if there was offline data, it will get sent with internet connection to transaction api
     if (getAll.result.length > 0) {
-        fetch('/api/transaction/bulk', {
+        fetch('/api/transaction', {
           method: 'POST',
           body: JSON.stringify(getAll.result),
           headers: {
