@@ -75,7 +75,7 @@ function uploadBudget() {
             budgetObjectStore.clear();
             // alert users that their offline transactions have been submitted
             // when they connect to internet
-            alert('All saved transactions have been submitted!');
+            alert('Offline transaction have been submitted!');
           })
           .catch(err => {
             console.log(err);
