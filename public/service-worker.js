@@ -5,11 +5,11 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 // constant for cache files
 const FILES_TO_CACHE = [
-    "/css/styles.css",
-    "/js/idb.js",
-    "/js/index.js",
-    "/index.html",
-    "/manifest.json"
+    "./css/styles.css",
+    "./js/idb.js",
+    "./js/index.js",
+    "./index.html",
+    "./manifest.json"
 ];
 
 // install function
